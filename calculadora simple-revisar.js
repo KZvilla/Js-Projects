@@ -33,40 +33,40 @@ const calculador = new Calculadora;
 
 alert("Que operacion arealizar");
 
-operacion = prompt("1: suma 2: resta 3: division 4: multiplicacion 5: Potencia 6: Raiz 2 7: Raiz 3");
+let operacion = prompt("1: suma 2: resta 3: division 4: multiplicacion 5: Potencia 6: Raiz 2 7: Raiz 3");
 
 if (operacion == 1) {
     let numero1 = prompt("Primer numero para sumar");
     let numero2 = prompt("Segundo numero para sumar");
-    resultado = calculador.sumar(numero1,numero2)
+    let resultado = calculador.sumar(numero1,numero2)
     alert(`tu resultado es: ${resultado}`);
 }
 if (operacion == 2) {
     let numero1 = prompt("Primer numero para restar");
     let numero2 = prompt("Segundo numero para restar");
-    resultado = calculador.restar(numero1,numero2);
+    let resultado = calculador.restar(numero1,numero2);
     alert(`tu resultado es: ${resultado}`);
 }
 if (operacion == 3) {
     let numero1 = prompt("Primer numero para dividir");
     let numero2 = prompt("Segundo numero para dividir");
-    resultado = calculadora.dividir(numero1,numero2);
+    let resultado = calculadora.dividir(numero1,numero2);
     alert(`tu resultado es: ${resultado}`);
 }
 if (operacion == 5) {
     let numero1 = prompt("numero a potenciar");
     let numero2 = prompt("exponente");
-    resultado = calculadora.potenciar(numero1,numero2);
+    let resultado = calculadora.potenciar(numero1,numero2);
     alert(`tu resultado es: ${resultado}`);
 }
 if (operacion == 6) {
     let numero1 = prompt("Raiz cuadradad de: ");
-    resultado = calculadora.raizCuadrada(numero1,numero2);
+    let resultado = calculadora.raizCuadrada(numero1,numero2);
     alert(`tu resultado es: ${resultado}`);
 }
 if (operacion == 7) {
     let numero1 = prompt("Raiz cuadradad de: ");
-    resultado = calculadora.raizCubica(numero1,numero2);
+    let resultado = calculadora.raizCubica(numero1,numero2);
     alert(`tu resultado es: ${resultado}`);
 }
 else {
