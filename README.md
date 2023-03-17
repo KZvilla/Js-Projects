@@ -18,7 +18,7 @@ A stopwatch that allows the user to start, stop, and reset the timer. The time i
 An image slider that displays a set of images and allows the user to navigate between them. The slider has next and previous buttons, as well as a set of dots that indicate which image is currently displayed.
 
 Usage
-To use any of these projects, simply navigate to the project directory and open the index.html file in a web browser. Each project contains its own set of HTML, CSS, and JavaScript files, as well as any necessary assets.
+To use any of these projects, simply navigate to the project directory and create an index.html file in a web browser. Each project can contains its own set of HTML, CSS, and JavaScript files, as well as any necessary assets.
 
 Contributing
 If you would like to contribute to this repository, please feel free to fork the repository and submit a pull request. Contributions are always welcome, and I appreciate any feedback or suggestions you may have.
